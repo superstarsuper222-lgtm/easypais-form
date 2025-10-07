@@ -1,10 +1,10 @@
-'use client';
+// 'use client';
 
-import React, { useState, useEffect } from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
+// import React, { useState, useEffect } from 'react';
+// import Image from 'next/image';
+// import Link from 'next/link';
 
-export default function SubmissionsPage() {
+// export default function SubmissionsPage() {
   const [submissions, setSubmissions] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
