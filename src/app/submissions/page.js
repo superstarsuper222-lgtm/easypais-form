@@ -12,7 +12,7 @@ export default function SubmissionsPage() {
   useEffect(() => {
     const fetchSubmissions = async () => {
       try {
-        const response = await fetch('/ap/submissions');
+        const response = await fetch('/api/v1/submissions');
         const result = await response.json();
         
         if (result.success) {
